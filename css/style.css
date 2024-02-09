@@ -52,4 +52,30 @@ nav{
 .bi{
   font-size: 50px;
 }
+img{
+  width: 100%;
+}
+.icons-container{
+  text-align: end;
+}
+.icons-container .bi{
+  font-size: 25px;
+  margin-left: 10px ;
+}
 /* main */
+
+/* btn */
+.bi-moon-fill{
+  color: white;
+}
+.theme-btn{
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+/* btn */
