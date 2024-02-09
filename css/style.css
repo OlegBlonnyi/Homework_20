@@ -37,7 +37,8 @@ body{
   border-bottom: 2px solid var(--text-color);
 }
 nav{
-  box-shadow: 0px -5px 15px rgb(62, 62, 62);
+  /* box-shadow: 0px -5px 15px rgb(62, 62, 62); */
+  box-shadow: 0px -5px 15px var(--text-color)
 }
 /* navbar */
 
@@ -67,11 +68,11 @@ img{
 /* btn */
 .bi-moon-fill{
   color: white;
+  font-size: 40px;
 }
 .theme-btn{
   text-align: center;
-  width: 75px;
-  height: 75px;
+  width: 60px;
   border-radius: 50%;
   background-color: var(--text-color);
   position: fixed;
